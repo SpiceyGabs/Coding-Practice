@@ -15,7 +15,6 @@ body {
  padding: 2rem;
  max-width: 650rem;
  border-radius: 1rem;
- background-color: azure;
  color: black;
 }
 
@@ -29,9 +28,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.h-entry{
-    background-color:#fffef6;
-}
+
 
 /* .video-Section{
 } */
