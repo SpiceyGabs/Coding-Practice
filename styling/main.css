@@ -1,16 +1,17 @@
 
+body {
+  padding: 1.5rem; 
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif; 
+  color: #333; 
+  background-color: #fdfdfd; 
+}
 
-
-
-
-
-
-
-
-
-.body-blogPost{
-    padding: 0rem; 
-    border-radius: 1.5rem;
-    background-color: #b8a1a1;
-    box-shadow: 0 4px 12px rgba(27, 57, 102, 0.825);
+.blogPost {
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  background-color: #fffefc;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
