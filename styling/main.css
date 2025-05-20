@@ -1,16 +1,22 @@
+nav {
+    background-color: #b6ada1; 
+}
 
 body {
   padding: 2.5rem; 
   line-height: 1.6;
   font-family: 'Inter', sans-serif; 
   color: #1c1c1c; 
-  background-color: #f7f5f2; 
+  background-color: #fffef6; 
   font-size: medium;
 }
 
 .homepageLinks{
  padding: 2rem;
  max-width: 650rem;
+ border-radius: 1rem;
+ background-color: azure;
+ color: black;
 }
 
 
@@ -18,9 +24,13 @@ body {
   padding: 2rem;
   margin: 2rem auto;
   max-width: 700px;
-  background-color: #a6a6a5;
+  background-color: #b6ada1;
   border-radius: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.h-entry{
+    background-color:#fffef6;
 }
 
 /* .video-Section{
