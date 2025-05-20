@@ -1,5 +1,26 @@
 nav {
-    background-color: #b6ada1; 
+    background-color: #ffffff; 
+    padding: 0;
+    width: 100%;
+}
+
+.nav ul{
+list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.navlinks {
+ color: rgba(2, 2, 65, 0.91);
+  text-decoration: solid;
+}
+
+
+.navbar li a:hover {
+  color: #000000;
 }
 
 body {
@@ -7,7 +28,11 @@ body {
   line-height: 1.6;
   font-family: 'Inter', sans-serif; 
   color: #1c1c1c; 
-  background-color: #fffef6; 
+  background-image: url("../Images/Background1.png") ;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: #fffef6;  */
   font-size: medium;
 }
 
