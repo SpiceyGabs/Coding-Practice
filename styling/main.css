@@ -8,6 +8,12 @@ body {
   font-size: medium;
 }
 
+.homepageLinks{
+ padding: 2rem;
+ max-width: 650rem;
+}
+
+
 .blogPost {
   padding: 2rem;
   margin: 2rem auto;
