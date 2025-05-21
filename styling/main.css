@@ -27,7 +27,8 @@ nav {
 }
 
 body {
-    padding: 2.5rem; 
+    height: 100%;
+    padding: 0rem; 
     margin: 0;
     line-height: 1.6;
     font-family: 'Inter', sans-serif; 
@@ -37,6 +38,7 @@ body {
     background-position: center;
     background-repeat: no-repeat; /* background-color: #fffef6;  */
     font-size: medium;
+
 }
 
 .homepageLinks{
@@ -62,30 +64,39 @@ body {
     text-align:left;
 }
 
-.contactCard {
-    background-color: #2f4156;
-    color: aliceblue;
-    width: max-content;
-}
 
 
 /* .video-Section{
 } */
 
+/* Sticky footer */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+main {
+  flex: 1; /* Fills the remaining space */
+}
 
 
 /* Footer */
 footer {
-    border-top: 2px solid #0d1828;
+    border-top: 2px solid;
+    color: #0d1828;
     padding: 2rem 1rem;
     text-align: center;
     margin-top: 3rem;
     background-color: #2f4156;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-
 .h-card {
-    list-style: none;  /*removed bullets*/ 
+    list-style: none;
     padding: 0;
     margin: 1rem 0;
     display: flex;
@@ -93,20 +104,15 @@ footer {
     gap: 1.5rem;
 }
 
-.h-card li{
+.h-card li {
     background-color: #2f4156;
 }
-.contactCard {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
 
-.copyright{
+.copyright {
     color: #ffffff;
     font-weight: bold;
+    margin-top: 1rem;
 }
-
 
 /* Underline ONLY when hovered or clicked*/
 /* a {
