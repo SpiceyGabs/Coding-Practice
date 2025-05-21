@@ -84,24 +84,25 @@ main {
 /* Footer */
 footer {
     border-top: 2px solid;
-    color: #0d1828;
-    padding: 2rem 1rem;
+    color: #75757576;
+    padding: 1rem 1.5rem;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: solid;
     background-color: #2f4156;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .h-card {
     list-style: none;
-    padding: 0;
-    margin: 1rem 0;
+    padding: 0.5rem;
+    margin: none ;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    background-color: #2f4156;
 }
 
 .h-card li {
@@ -113,6 +114,33 @@ footer {
     font-weight: bold;
     margin-top: 1rem;
 }
+ /* To fix awkward white space */
+ footer h4 {
+  margin: 0 0 0.5em 0; /* remove big bottom margin, keep small spacing */
+  padding: 0;
+  line-height: 1.2; /* tighter line height */
+  background-color: #2f4156;
+}
+
+footer ul {
+  margin: 0;
+  padding-left: 1em; 
+  padding-top: 0rem;
+  background-color: #2f4156;
+
+}
+
+footer li {
+  margin: none ;
+  padding: 0.2em 0; /* small vertical spacing */
+  list-style: none;
+  color: #f7f5f4;
+}
+
+
+
+
+
 
 /* Underline ONLY when hovered or clicked*/
 /* a {
