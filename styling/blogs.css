@@ -52,6 +52,7 @@
   padding: 1rem;
   background: #f7f7f7;
   position: fixed;
+  padding-top: 0rem;
   top: 0;
   left: 0;
   height: 100vh;
