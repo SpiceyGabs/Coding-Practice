@@ -28,6 +28,18 @@ nav {
     border-bottom: 2.4px solid #ccc; /* underline separator */
 }
 
+/* Welcome screen  */
+.welcomeScreen{
+    background-image: url("../Images/WelcomeWireframe.png");
+     background-size:cover;
+     width: max-content;
+     height: 1500px;
+}
+
+.intro{
+    background-color: #003375fe;   /*this is so theres a solid block between the welcome screen and the about -_- */
+    width: 100%;
+}
 
 body {
     height: 100%;
