@@ -85,7 +85,7 @@ main {
 footer {
     border-top: 2px solid;
     color: #75757576;
-    padding: 1rem 1.5rem;
+    padding: 0;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -109,32 +109,45 @@ footer {
     background-color: #2f4156;
 }
 
+.h-card img {
+  justify-content:center ;
+    
+}
+
+.h-card img:hover {
+    transform: scale(1.5); /* cute likkle zoom on hover */
+}
 .copyright {
     color: #ffffff;
+    margin-top: 0;
+}
+
+.contact{
+    color: #ffffff;
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: 0;
 }
  /* To fix awkward white space */
  footer h4 {
-  margin: 0 0 0.5em 0; /* remove big bottom margin, keep small spacing */
-  padding: 0;
-  line-height: 1.2; /* tighter line height */
-  background-color: #2f4156;
+    margin: 0 0 0.5em 0; /* remove big bottom margin, keep small spacing */
+    padding: 0;
+    line-height: 1.2; /* tighter line height */
+    background-color: #2f4156;
 }
 
 footer ul {
-  margin: 0;
-  padding-left: 1em; 
-  padding-top: 0rem;
-  background-color: #2f4156;
+    margin: 0;
+    padding-left: 1em; 
+    padding-top: 0rem;
+    background-color: #2f4156;
 
 }
 
 footer li {
-  margin: none ;
-  padding: 0.2em 0; /* small vertical spacing */
-  list-style: none;
-  color: #f7f5f4;
+    margin: none ;
+    padding: 0.2em 0; /* small vertical spacing */
+    list-style: none;
+    color: #f7f5f4;
 }
 
 
