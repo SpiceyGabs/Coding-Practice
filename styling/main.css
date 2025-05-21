@@ -75,6 +75,16 @@ main{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
+.blogPost5 {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    background-color: #f7f5f4;
+    color: #04254f;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
 .blogPost p {
     margin-bottom: 1.2rem;
     text-align:justify;
