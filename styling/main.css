@@ -2,6 +2,8 @@ nav {
     background-color: #ffffff; 
     padding: 0;
     width: 100%;
+    display: flex;
+    justify-content: end;
 }
 
 .navlinks {
@@ -23,7 +25,7 @@ nav {
     list-style: none;
     padding: 1rem 0;
     margin: 0;
-    border-bottom: 2px solid #ccc; /* underline separator */
+    border-bottom: 2.4px solid #ccc; /* underline separator */
 }
 
 
@@ -51,8 +53,8 @@ main{
 
 .portfolioBody{
     background-image: url("../Images/SoftBackgroundStar.jpg");
-    padding: 2rem;
-    margin: 2rem; 
+    padding: 0rem;
+    margin: 0rem; 
     height: max-content;
 }
 
@@ -174,7 +176,7 @@ footer {
 
 footer ul {
     margin: 0;
-    padding-left: 1em; 
+    padding-left: 0em; 
     padding-top: 0rem;
     background-color: #2f4156;
 
