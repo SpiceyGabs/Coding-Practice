@@ -78,7 +78,7 @@ main{
 .blogPost5 {
     padding: 2rem;
     margin: 2rem auto;
-    max-width: 900px;
+    max-width:max-content;
     background-color: #f7f5f4;
     color: #04254f;
     border-radius: 1.5rem;
