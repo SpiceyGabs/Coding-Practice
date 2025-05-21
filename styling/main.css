@@ -61,7 +61,23 @@ body {
 
 .blogPost p {
     margin-bottom: 1.2rem;
-    text-align:left;
+    text-align:justify;
+}
+
+/* Design */
+.reflection{
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 1050px;
+    background-color: #f7f5f4;
+    color: #04254f;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.reflection p{
+     margin-bottom: 1.2rem;
+    text-align:justify;
 }
 
 
