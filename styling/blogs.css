@@ -1,5 +1,5 @@
 /* Vertical Navigation */
-/* .homepageLinks {
+ .homepageLinks {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
@@ -12,16 +12,16 @@
     color: #2f4156;
 }
 
-.blogs-ul,.essays-ul {
+/* .blogs-ul,.essays-ul {
      list-style: none;
     padding-left: 0;
         margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem; /* vertical spacing between items} */
+    gap: 1rem; vertical spacing between items}  */
 
-
-/*.blogs-ul li,
+/* 
+.blogs-ul li,
 .essays-ul li {
     background-color: #f5f5f5;
     padding: 0.8rem 1rem;
@@ -38,9 +38,9 @@
     color: #2f4156;
     font-weight: 500;
     display: block;
-} */
+}  */
 
-/* Main layout: side-by-side */
+/*UM... Main layout: side-by-side */
 .container {
   display: flex;
   min-height: 100vh;
