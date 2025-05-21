@@ -42,6 +42,12 @@ body {
 
 }
 
+main{
+    padding: 2rem;
+    margin: 2rem;
+    padding-top: 0px;
+}
+
 .portfolioBody{
     background-image: url("../Images/SoftBackgroundStar.jpg");
     padding: 2rem;
@@ -51,6 +57,7 @@ body {
 
 .homepageLinks{
     padding: 2rem;
+    padding-bottom: 0px;
     max-width: 650rem;
     border-radius: 1rem;
     color: black;
