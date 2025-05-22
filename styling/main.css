@@ -30,10 +30,17 @@ nav {
 
 /* Welcome screen  */
 .welcomeScreen{
-    background-image: url("../Images/WelcomeWireframe.png");
-     background-size:cover;
-     width: max-content;
-     height: 1500px;
+  /*  background-image: url("../Images/Welcome_Screen.jpg");
+   background-size:cover;
+    width: 100vh; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    height: 600px;
+
 }
 
 .intro{
@@ -67,7 +74,7 @@ main{
     background-image: url("../Images/SoftBackgroundStar.jpg");
     padding: 0rem;
     margin: 0rem; 
-    height: max-content;
+    size: 100rem;
 }
 
 .homepageLinks{

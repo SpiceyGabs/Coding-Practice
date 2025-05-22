@@ -7,40 +7,59 @@
     <title>Coding practice Index page</title>
     <!-- Styling -->
     <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="index.css">
+    
 </head>
 
-<body>
-    <div class="page-wrapper">     <!--EVERything  insie the body needs a divider for the sticky footer to Work   -->
-    <section class="homepageLinks">
-        <nav class="navbar" role="navigation" aria-label="Main"> <!-- list of links to main website locations -->
-                <ul>
+<body class="indexBody
+">
+    <div class="pageWrapper">     <!--EVERything  insie the body needs a divider for the sticky footer to Work -->
+    <div class="introBanner" id="introBanner">
+            <h1>Welcome to my website</h1>
+            <button id="nextBtn">Next</button>
+    </div>
+
+    <header class="mainHeader" id="mainHeader">
+        <nav>
+            <ul> 
                 <li><a class="navlinks" href="index.html">Home</a></li>
                 <li><a class="navlinks" href="Blogs/BlogsHomepage.html">Blogs</a></li>
                 <li><a class="navlinks" href="Portfolio/portfolio.html">Portfolio</a></li>
                 <li><a class="navlinks" href="Design/Design.html">Design</a></li>
-                </ul>
+            </ul> 
         </nav>
-    </section> 
+    </header>
 
-    <section class="welcomeScreen">
-        <!-- <img src="./Images/Welcome_Screen.jpg" 
-        alt="blue and white background with flowers in the forebground and text in the centre that reads_welcome" ># </a> -->
-    </section>
+
+ <!-- <section class="homepageLinks">
+        <nav class="navbar" role="navigation" aria-label="Main"> list of links to main website locations -->
+                <!-- <ul> -->
+                <!-- <li><a class="navlinks" href="index.html">Home</a></li>
+                <li><a class="navlinks" href="Blogs/BlogsHomepage.html">Blogs</a></li>
+                <li><a class="navlinks" href="Portfolio/portfolio.html">Portfolio</a></li>
+                <li><a class="navlinks" href="Design/Design.html">Design</a></li>
+                </ul>
+        </nav>  --> 
+       
+    <!-- </section> 
+        <img src="./Images/Welcome_Screen.jpg" 
+        alt="blue and white background with flowers in the forebground and text in the centre that reads_welcome" ># </a>
+    </section> -->
     
 <main>
-<section class="intro">
+<section class="aboutPage" id="aboutPage">
       <h2>Welcome to my Home...page</h2>
-      <p>A curated space for digital expression, creative exploration, and thoughtful design.
-        Step inside and explore stories, visuals, and ideas that reflect a student's mind at work and a home built on creativity,
+      <p>This is a curated space for digital expression, creative exploration, and thoughtful design.
+        Step inside and explore text, visuals, and ideas that reflect a student's mind at work through creativity,
         and tailored with intention.
         <br>
         Here you’ll find my weekly blog posts, class explorations, and creative updates as this
         space continues to grow and evolve. Take your time, explore, and enjoy the journey. Get in touch if you’d like to collaborate,
         chat about design, or are curious about the person behind the screen.
       </p>
-    </section>
+</section>
 
-    <section class="about-grid">
+    <section class="aboutGrid">
       <div class="about-img">
         <img src="./Images/AboutSectionSelfie.jpg"
              alt="A golden hour selfie of Sisanda Gabela"
@@ -49,7 +68,7 @@
     
       </div>
 
-      <div class="about-text">
+      <div class="aboutMeText" id="aboutMeText">
 
         <h2>Hi! I'm Sisanda Gabela</h2>
 
