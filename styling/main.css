@@ -23,9 +23,9 @@ nav, .mainHeader nav {
     justify-content: center; /* center horizontally */
     gap: 2rem;
     list-style: none;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     margin: 0;
-    border-bottom: 2.4px solid #ccc; /* underline separator */
+   /* border-bottom: 2.4px solid #ccc; /* underline separator */
 }
 
 /* Welcome screen  */
