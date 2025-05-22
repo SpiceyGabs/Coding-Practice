@@ -1,4 +1,4 @@
-  .indexBody {  /*stops page from scrolling behind banner */
+.indexBody {  /*stops page from scrolling behind banner */
    height: 100vh;
   overflow: hidden;
 }
@@ -27,21 +27,43 @@ indexBody, html {
     text-align: center;
     margin-top: 0%;
     flex-direction: column;*/ 
-    background-size: cover;
+    /* background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 5%;
-    height: 600px;
+    height: 600px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #421ad3;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: transform 0.8s ease-in-out;
 }
 
 .introBanner img {
-  max-width: 50vh;
+  /* max-width: 50vh;
   max-height: 70vh;
   width: 100%;
   height: auto;
+  object-fit: contain; */
+  max-width: 70%;
+  max-height: 60vh;
   object-fit: contain;
+}
+
+
+.introBanner.hide {
+  transform: translateY(-100%);
 }
 
 .introBanner h1 {
@@ -51,12 +73,18 @@ indexBody, html {
 } 
 
  #nextBtn {                    /*I must admit, I fixed this and the keyframes using AI, sorry */
-margin-top: 1rem;
+/* margin-top: 1rem;
 padding: 0.7rem 1.5rem;
 font-size: 1rem;
 cursor: pointer;
 opacity: 0;
-animation: fadeIn 2s 1.5s forwards;
+animation: fadeIn 2s 1.5s forwards; */
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  opacity: 0;
+  animation: fadeIn 2s 1.5s forwards;
+  z-index: 1001;
 }
 
 @keyframes fadeIn {
