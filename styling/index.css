@@ -69,7 +69,7 @@ indexBody, html {
 
 .introBanner h1 {
     font-size: 2.5rem;
-    animation: fadeIn 1.6s forwards;
+    /* animation: fadeIn 1.6s forwards; */
 } 
 
  #nextBtn {                    /*I must admit, I fixed this and the keyframes using AI, sorry */
@@ -84,7 +84,7 @@ animation: fadeIn 2s 1.5s forwards; */
   font-size: 1rem;
   opacity: 0;
   animation-delay: 1.5s;
-  /* animation: fadeIn 2s 1.5s forwards; */
+  animation: fadeIn 2s 1.5s forwards;
   z-index: 1001;
 }
 
