@@ -7,70 +7,8 @@ indexBody, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-} 
-
-.introBanner {
-    /*background-image: url(../Images/Welcome_Screen.jpg); 
-    /* height: 400px;*/
-    /*top: 0;
-    left: 0;
-    z-index: 1000;
-    transition: all 0.5s ease-in-out;
-    background-size:cover;
-    position: fixed;
-    width: 100%; 
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 0%;
-    flex-direction: column;*/ 
-    /* background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 5%;
-    height: 600px; */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #421ad3;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    transition: transform 0.8s ease-in-out;
-}
-
-.introBanner img {
-  /* max-width: 50vh;
-  max-height: 70vh;
-  width: 100%;
-  height: auto;
-  object-fit: contain; */
-  background-image: url(../Images/Welcome_Screen.jpg);
-  max-width: 70%;
-  max-height: 60vh;
-  object-fit: contain;
-}
 
 
-.introBanner.hide {
-  transform: translateY(-100%);
-}
-
-.introBanner h1 {
-    font-size: 2.5rem;
-    /* animation: fadeIn 1.6s forwards; */
-} 
 
  #nextBtn {                    /*I must admit, I fixed this and the keyframes using AI, sorry */
 /* margin-top: 1rem;
